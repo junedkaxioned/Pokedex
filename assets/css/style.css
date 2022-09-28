@@ -101,35 +101,82 @@ li {
   margin: 0 auto;
 }
 
-/*=================================
-  Header styling starts here
-=================================*/
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
 
 /*=================================
   main styling starts here
 =================================*/
 
+.pokedex-section { background: linear-gradient(to right, #d4d3dd, #efefbb); }
 
+.heading {
+  padding: 20px 0px;
+  font-size: 34px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.pokemon-card {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #eee;
+  box-shadow: 0 3px 15px rgb(100 100 100 / 50%);
+  text-align: center;
+}
+
+.pokemon-img {
+  width: 120px;
+  height: 120px; 
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  object-fit: cover;
+}
+
+.pokemon-info { margin-top: 20px; }
+
+.number {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.name { 
+  margin: 15px 0 7px;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.type { font-size: 12px; }
+.fire{ color: #FDDFDF; };
+.grass{ color: #DEFDE0; };
+.electric{ color: #FCF7DE; };
+.water{ color: #DEF3FD; };
+.ground{ color: #f4e7da; };
+.rock{ color: #d5d5d4; };
+.fairy{ color: #fceaff; };
+.poison{ color: #98d7a5; };
+.bug{ color: #f8d5a3; };
+.dragon{ color: #97b3e6; };
+.psychic{ color: #eaeda1; };
+.flying{ color: #F5F5F5; };
+.fighting{ color: #E6E0D4; };
+.normal{ color: #F5F5F5; };
 
 /*=================================
   main styling ends here
 =================================*/
-
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
 
 /*media query starts*/
 /*media query for 995px starts here*/
