@@ -156,23 +156,26 @@ li {
   font-size: 19px;
   font-weight: 700;
   letter-spacing: 1px;
+  text-transform: capitalize;
 }
 
 .type { font-size: 12px; }
-.fire{ color: #FDDFDF; };
-.grass{ color: #DEFDE0; };
-.electric{ color: #FCF7DE; };
-.water{ color: #DEF3FD; };
-.ground{ color: #f4e7da; };
-.rock{ color: #d5d5d4; };
-.fairy{ color: #fceaff; };
-.poison{ color: #98d7a5; };
-.bug{ color: #f8d5a3; };
-.dragon{ color: #97b3e6; };
-.psychic{ color: #eaeda1; };
-.flying{ color: #F5F5F5; };
-.fighting{ color: #E6E0D4; };
-.normal{ color: #F5F5F5; };
+
+
+.fire{ background-color: #FDDFDF; }
+.grass{ background-color: #DEFDE0; }
+.electric{ background-color: #FCF7DE; }
+.water{ background-color: #DEF3FD; }
+.ground{ background-color: #f4e7da; }
+.rock{ background-color: #d5d5d4; }
+.fairy{ background-color: #fceaff; }
+.poison{ background-color: #98d7a5; }
+.bug{ background-color: #f8d5a3; }
+.dragon{ background-color: #97b3e6; }
+.psychic{ background-color: #eaeda1; }
+.flying{ background-color: #F5F5F5; }
+.fighting{ background-color: #E6E0D4; }
+.normal{ background-color: #F5F5F5; }
 
 /*=================================
   main styling ends here
